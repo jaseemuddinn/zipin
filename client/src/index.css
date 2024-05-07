@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    :root {
+        /* --color-theme: #006666; */
+        --color-theme: #ff5b00;
+        /* --color-theme-hover: #008080; */
+        --color-theme-hover: #d34a00;
+    }
+}
