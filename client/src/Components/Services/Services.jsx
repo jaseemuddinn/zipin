@@ -2,6 +2,7 @@ import React from "react";
 import web from "../../assets/icon/web.png";
 import android from "../../assets/icon/android.png";
 import brand from "../../assets/icon/brand.png";
+import iOS from "../../assets/icon/iOS.png";
 
 function Services() {
   return (
@@ -25,10 +26,10 @@ function Services() {
               href="#"
             >
               <div className="mb-5">
-                <img src={web} alt="Web Development" width={"50px"} />
+                <img src={web} alt="Web Solutions" width={"50px"} />
                 <div className="mt-5">
                   <p className="font-semibold text-4xl text-white">
-                    Website Developement
+                    Website Development
                   </p>
                   <h3 className="mt-5 font-medium text-lg text-white">
                     Crafting Digital Experiences
@@ -54,18 +55,21 @@ function Services() {
               href="#"
             >
               <div className="mb-5">
-                <img src={android} alt="Android Developement" width={"50px"} />
-
+                <div className={'flex gap-2 align-middle'}>
+                  <img src={android} alt="Android Developement" width={"50px"}/>
+                  <img src={iOS} alt="iOS Development" width={"50px"}/>
+                </div>
+                
                 <div className="mt-5">
                   <p className="font-semibold text-4xl text-white">
-                    Android Developement
+                    Mobile App Solutions
                   </p>
                   <h3 className="mt-5 font-medium text-lg text-white">
                     Mobile Innovation Solutions
                   </h3>
                   <p className="mt-1 text-neutral-400">
-                    Unlock the potential of the Android platform with our
-                    Android Development service. We specialize in building
+                    Unlock the potential of the Android + iOS platforms with our
+                    Mobile App Development service. We specialize in building
                     high-performance, feature-rich mobile applications that
                     offer a smooth and delightful user experience, helping you
                     reach and engage your customers on their favorite devices.
@@ -88,7 +92,7 @@ function Services() {
 
                 <div className="mt-5">
                   <p className="font-semibold text-4xl text-white">
-                    Brand Developement
+                    Brand Development
                   </p>
                   <h3 className="mt-5 font-medium text-lg text-white">
                     Shaping Brand Identity
