@@ -29,13 +29,13 @@ function Services() {
                 <img src={web} alt="Web Solutions" width={"50px"} />
                 <div className="mt-5">
                   <p className="font-semibold text-4xl text-white">
-                    Website Development
+                    Web Solutions
                   </p>
                   <h3 className="mt-5 font-medium text-lg text-white">
                     Crafting Digital Experiences
                   </h3>
                   <p className="mt-1 text-neutral-400">
-                    Our Website Development service is all about crafting
+                    Our Web Solutions service is all about crafting
                     digital experiences that captivate and engage your audience.
                     From intuitive user interfaces to seamless navigation, we
                     create websites that not only look great but also drive
