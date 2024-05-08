@@ -37,39 +37,48 @@
     </script>
 
     <link rel="stylesheet" href="https://preline.co/assets/css/main.min.css" />
-    <title>ZIPIN</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"
+    />
+    <title>Zipin</title>
+    <meta
+      content="I'm Zipin, the one-stop shop for expert software consulting.  We bring a passion for innovation and a wealth of experience to help businesses to achieve their software goals. From concept to completion, we provide tailored solutions that elevate the software and drive results."
+      name="description"
+    />
+    <meta property="og:title" content="Zipin" />
+    <meta property="og:site_name" content="Zipin" />
+    <meta
+      property="og:description"
+      content="Zipin is the one-stop shop for expert software consulting. We bring a passion for innovation and a wealth of experience to help businesses to achieve their software goals. From concept to completion, we provide tailored solutions that elevate the software and drive results."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://www.zipintech.com/images/zipin_black_logo_1.png"
+    />
+    <meta property="og:url" content="https://www.zipintech.com" />
+    <meta property="twitter:title" content="Zipin" />
+    <meta property="twitter:site" content="Zipin" />
+    <meta
+      property="twitter:image"
+      content="https://www.zipintech.com/images/zipin_black_logo_1.png"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:description"
+      content="Zipin is the one-stop shop for expert software consulting. We bring a passion for innovation and a wealth of experience to help businesses to achieve their software goals. From concept to completion, we provide tailored solutions that elevate the software and drive results."
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link
+      rel="image_src"
+      href="https://www.zipintech.com/images/zipin_black_logo_1.png"
+    />
   </head>
   <body className="bg-neutral-900">
     <script src="https://cdn.jsdelivr.net/npm/preline/dist/preline.min.js"></script>
 
-    <!-- JS INITIALIZATIONS -->
-    <script>
-      (function () {
-        function textareaAutoHeight(el, offsetTop = 0) {
-          el.style.height = "auto";
-          el.style.height = `${el.scrollHeight + offsetTop}px`;
-        }
-
-        (function () {
-          const textareas = ["#hs-tac-message"];
-
-          textareas.forEach((el) => {
-            const textarea = document.querySelector(el);
-            const overlay = textarea.closest(".hs-overlay");
-
-            if (overlay) {
-              const { element } = HSOverlay.getInstance(overlay, true);
-
-              element.on("open", () => textareaAutoHeight(textarea, 3));
-            } else textareaAutoHeight(textarea, 3);
-
-            textarea.addEventListener("input", () => {
-              textareaAutoHeight(textarea, 3);
-            });
-          });
-        })();
-      })();
-    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
