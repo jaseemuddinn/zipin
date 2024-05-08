@@ -48,9 +48,9 @@ function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 lg:gap-x-16">
             <div className="md:order-2 border-b border-neutral-800 pb-10 mb-10 md:border-b-0 md:pb-0 md:mb-0">
               <form
-                onSubmit={handleSubmit}
-                action="https://api.web3forms.com/submit"
+                action="https://formspree.io/f/mdoqbqjb"
                 method="POST"
+                encType="multipart/form-data"
               >
                 <div className="space-y-4">
                   <input
@@ -88,7 +88,7 @@ function Contact() {
                       Name
                     </label>
                   </div>
-
+                  
                   <div className="relative">
                     <input
                       type="email"
@@ -119,7 +119,7 @@ function Contact() {
                       Email
                     </label>
                   </div>
-
+                  
                   <div className="relative">
                     <input
                       type="text"
@@ -150,7 +150,7 @@ function Contact() {
                       Company
                     </label>
                   </div>
-
+                  
                   <div className="relative">
                     <input
                       type="text"
@@ -211,21 +211,20 @@ function Contact() {
                     </label>
                   </div>
                 </div>
-
+                
                 <div className="mt-2">
                   <p className="text-xs text-neutral-500">
                     All fields are required
                   </p>
-
+                  
                   <p className="mt-5">
                     <button
                       type="submit"
                       className="group inline-flex items-center gap-x-2 py-2 px-3 bg-skin-fill font-medium text-sm text-white rounded-full focus:outline-none"
-                      onClick={handleSubmit}
                       disabled={isSubmitted}
                     >
                       {isSubmitted ? "Sent" : "Submit"}
-
+                      
                       <svg
                         className="flex-shrink-0 size-4 transition group-hover:translate-x-0.5 group-focus:translate-x-0.5"
                         xmlns="http://www.w3.org/2000/svg"
@@ -238,15 +237,15 @@ function Contact() {
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       >
-                        <path d="M5 12h14" />
-                        <path d="m12 5 7 7-7 7" />
+                        <path d="M5 12h14"/>
+                        <path d="m12 5 7 7-7 7"/>
                       </svg>
                     </button>
                   </p>
                 </div>
               </form>
             </div>
-
+            
             <div className="space-y-14">
               <div className="flex gap-x-5">
                 <svg
@@ -268,8 +267,8 @@ function Contact() {
                   <h4 className="text-white font-semibold">Email us:</h4>
 
                   <a
-                    className="mt-1 text-neutral-400 text-sm"
-                    href="#mailto:example@site.co"
+                    className="mt-1 text-sm text-skin-base"
+                    href="mailto:hello@zipintech.com"
                     target="_blank"
                   >
                     hello@zipintech.com
@@ -294,7 +293,7 @@ function Contact() {
                 </svg>
                 <div className="grow">
                   <h4 className="text-white font-semibold">
-                    We are on the Internet.{" "}
+                    Internet
                   </h4>
                 </div>
               </div>

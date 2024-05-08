@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function Hero() {
   const [typedText, setTypedText] = useState("");
-  const wordsToType = ["Reality", "Action", "Results", "Success", "Impact"];
+  const wordsToType = ["Reality", "Actions", "Results", "Success", "Impact"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
 

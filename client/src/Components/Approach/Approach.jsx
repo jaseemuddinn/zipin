@@ -18,19 +18,19 @@ function Approach() {
               execution of brand development and website or product deployment.
             </p>
           </div>
-
+          
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
             <div className="aspect-w-16 aspect-h-9 lg:aspect-none">
-              <img className="w-full object-cover rounded-xl" src={gif3} />
+              <img className="w-full object-cover rounded-xl" src={gif3}/>
             </div>
-
+            
             <div>
               <div className="mb-4">
                 <h3 className="text-xs font-medium uppercase text-skin-base">
                   Steps
                 </h3>
               </div>
-
+              
               <div className="flex gap-x-5 ms-1">
                 <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                   <div className="relative z-10 size-8 flex justify-center items-center">
@@ -39,7 +39,7 @@ function Approach() {
                     </span>
                   </div>
                 </div>
-
+                
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
                   <p className="text-sm lg:text-base text-neutral-400">
                     <span className="text-white">
@@ -50,7 +50,7 @@ function Approach() {
                   </p>
                 </div>
               </div>
-
+              
               <div className="flex gap-x-5 ms-1">
                 <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                   <div className="relative z-10 size-8 flex justify-center items-center">
@@ -59,7 +59,7 @@ function Approach() {
                     </span>
                   </div>
                 </div>
-
+                
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
                   <p className="text-sm lg:text-base text-neutral-400">
                     <span className="text-white">
@@ -70,7 +70,7 @@ function Approach() {
                   </p>
                 </div>
               </div>
-
+              
               <div className="flex gap-x-5 ms-1">
                 <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                   <div className="relative z-10 size-8 flex justify-center items-center">
@@ -79,7 +79,7 @@ function Approach() {
                     </span>
                   </div>
                 </div>
-
+                
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
                   <p className="text-sm md:text-base text-neutral-400">
                     <span className="text-white">Marketing and Promotion:</span>
@@ -88,7 +88,7 @@ function Approach() {
                   </p>
                 </div>
               </div>
-
+              
               <div className="flex gap-x-5 ms-1">
                 <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                   <div className="relative z-10 size-8 flex justify-center items-center">
@@ -97,7 +97,7 @@ function Approach() {
                     </span>
                   </div>
                 </div>
-
+                
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
                   <p className="text-sm md:text-base text-neutral-400">
                     <span className="text-white">Launch and Optimization:</span>
@@ -106,10 +106,10 @@ function Approach() {
                   </p>
                 </div>
               </div>
-
               <a
                 className="group inline-flex items-center gap-x-2 py-2 px-3 bg-skin-fill font-medium text-sm text-white rounded-full focus:outline-none"
-                href="#"
+                href="mailto:hello@zipintech.com"
+                target="_blank"
               >
                 <svg
                   className="flex-shrink-0 size-4"

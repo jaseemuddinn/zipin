@@ -108,10 +108,12 @@ const Navbar = () => {
               <div>
                 <a
                   className="group inline-flex items-center gap-x-2 py-2 px-3 bg-skin-fill font-medium text-sm text-white rounded-full focus:outline-none"
-                  href="#contact"
+                  href="mailto:hello@zipintech.com"
+                  target="_blank"
                 >
                   Email us
                 </a>
+                
               </div>
             </div>
           </div>
